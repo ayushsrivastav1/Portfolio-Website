@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+body {
+  color: white;
+  background: linear-gradient(to bottom,
+      #180a3f 0%,
+      #180a3f 22%,
+      #341352 50%,
+      #180a3f 78%,
+      #180a3f 100%);
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floating {
+  animation: float 6s ease-in-out infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* nav{
+  
+} */
