@@ -29,9 +29,13 @@ const About = () => {
                                 ))
                             }
                         </div>
-                        <button className='px-8 py-4 mt-6 text-white rounded-full cursor-pointer bg-[#6f1f85] hover:bg-[#8b3db8] transition-colors duration-300'>
+                        <a
+                            href="https://drive.google.com/file/d/1VUhMtPTlP4ayo8sX-ERdulVgO8y0rfMr/view?usp=sharing"
+                            target="_blank"
+                            className="inline-block px-8 py-4 mt-6 text-white rounded-full cursor-pointer bg-[#6f1f85] hover:bg-[#8b3db8] transition-colors duration-300"
+                        >
                             Download Resume
-                        </button>
+                        </a>
                     </div>
 
                     <div className='order-1 lg:order-2 flex justify-center'>

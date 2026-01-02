@@ -67,14 +67,17 @@ const Contact = () => {
                                 <input
                                     className='px-4 py-3 w-full border-2 border-[#8b3db8]/60 rounded outline-none'
                                     placeholder='Enter name'
-                                    type="text" />
+                                    type="text" 
+                                    required
+                                />
                             </div>
 
                             <div>
                                 <input
                                     className='px-4 py-3 w-full border-2 border-[#8b3db8]/60 rounded outline-none'
                                     placeholder='Enter email'
-                                    type="email" 
+                                    type="email"
+                                    required 
                                 />
                             </div>
                         </div>
@@ -83,6 +86,7 @@ const Contact = () => {
                             <textarea
                                 className='px-4 py-3 h-50 w-full border-2 border-[#8b3db8]/60 rounded outline-none'
                                 placeholder='Enter subject'
+                                required
                             />
                         </div>
                         <div className='flex items-center justify-center'>

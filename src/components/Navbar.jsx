@@ -24,9 +24,14 @@ const Navbar = () => {
         </ul>
 
         {/* Desktop Button */}
-        <button className="hidden md:block px-8 py-3 border border-gray-200 hover:text-indigo-400 rounded-full text-white">
+        <a
+          href="https://drive.google.com/file/d/1VUhMtPTlP4ayo8sX-ERdulVgO8y0rfMr/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hidden md:inline-block px-8 py-3 border border-gray-200 rounded-full text-white hover:text-indigo-400 transition"
+        >
           Resume
-        </button>
+        </a>
 
         {/* Mobile Menu Icon */}
         <button
@@ -52,9 +57,14 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-            <button className="px-8 py-3 border border-gray-200 rounded-full text-white">
+            <a
+              href="https://drive.google.com/file/d/1VUhMtPTlP4ayo8sX-ERdulVgO8y0rfMr/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden md:inline-block px-8 py-3 border border-gray-200 rounded-full text-white hover:text-indigo-400 transition"
+            >
               Resume
-            </button>
+            </a>
           </ul>
         </div>
       )}
