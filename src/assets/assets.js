@@ -1,5 +1,5 @@
 import { FaCode, FaDesktop, FaReact, FaSchool } from 'react-icons/fa6'
-import profileImg from '../assets/image.jpg'
+import profileImg from '../assets/profileImage.jpg'
 import { FaProjectDiagram } from 'react-icons/fa'
 import project1 from '../assets/project1.png'
 import project2 from '../assets/project2.png'
@@ -60,7 +60,7 @@ export const skillsData = [
 
 export const projectData = [
     {
-        title: 'Health Care',
+        title: 'SmartWorkflow',
         description: 'A React-based Employee Task Management System showcasing authentication, role-based dashboards, task management, and state persistence using Context API and LocalStorage.',
         image: `${project1}`,
         tech: ['React', 'Tailwind', 'Context Api', 'Local Storage'],
